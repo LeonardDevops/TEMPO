@@ -22,7 +22,7 @@ function BuscarClima() {
     if (nome.current.value === '') return;
 
     let chave1 = '94ecc7415954d78dfc0b5a76263a122e'
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=${nome.current.value}&appid=${chave1}&lang=pt_br&units=metric`
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${nome.current.value.trim()}&appid=${chave1}&lang=pt_br&units=metric`
 
     await fetch(url)
       .then((resultado) => resultado.json())
@@ -50,14 +50,14 @@ function BuscarClima() {
 
     function trocaFundo() {
       // aqui fiz um switch cade pra mudar  pra esses fundos de acordo com esses casos 
-      if (description !== '') return containe.current.className = `${description} fundo `
+      if (description !== '') return containe.current.className = `${description} fundo `;
 
     }
     trocaFundo();
 
 
 
-  }, [])
+  }, [description])
 
 
   return (
@@ -73,7 +73,7 @@ function BuscarClima() {
         <form className="buscar" onSubmit={getClima}>
           <input ref={nome} className="place"
             type="text"
-            placeholder="Digite seu Estado..." />
+            placeholder="Digite seu Estado ou cidade ..." />
 
           <button>Buscar</button>
 
