@@ -1,0 +1,462 @@
+.fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    background-repeat: round;
+    background-image: url("./Images/fundo.jpg");
+    transition: all 0.5s;
+}
+
+
+.gota {
+    width: 30px;
+    display: flex;
+    margin-right: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    height: 35px;
+    margin-right: 85%;
+    border-radius: 8px;
+    font-weight: bold;
+    border-right: 1px solid rgb(15, 15, 15);
+    border-bottom: 3px solid rgb(15, 15, 15);
+    font-size: 30px;
+    margin-top: 25px;
+    background-color: #fff;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.vento-i {
+    margin-right: 10px;
+    width: 33px;
+}
+
+.maxima-minima {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9.2%;
+}
+
+.container-icone {
+    margin-top: 15px;
+    display: flex;
+    width: 95%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone {
+    width: 100px;
+}
+
+.container-vento {
+    display: flex;
+    width: 95%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-family: sans-serif;
+    background-color: rgba(252, 252, 252, 0.473);
+    box-shadow: rgba(0, 0, 0, 0.479) 0px 54px 55px, rgba(122, 122, 122, 0.486) 0px -12px 30px, rgba(20, 20, 20, 0.925) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ventos-incone h4 {
+    font-family: sans-serif;
+
+}
+
+.logo {
+    display: none;
+}
+
+.container-gota {
+    display: flex;
+    width: 95%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-family: sans-serif;
+    background-color: rgba(252, 252, 252, 0.473);
+    box-shadow: rgba(0, 0, 0, 0.479) 0px 54px 55px, rgba(122, 122, 122, 0.486) 0px -12px 30px, rgba(20, 20, 20, 0.925) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.nublado {
+
+    background-image: url("./Images/nublado/pexels-josh-sorenson-391522.jpg");
+}
+
+.chuva {
+
+    background-image: url("./Images/pexels-bithinraj-mb-2763927.jpg");
+}
+
+.ensolarado {
+    background-image: url("./Images/pexels-kien-virak-5823989.jpg");
+
+}
+
+.algumas {
+
+    background-image: url("./Images/nublado/pexels-pixabay-158163.jpg");
+}
+
+.céu {
+
+    background-image: url("./Images/nublado/pexels-pixabay-86695.jpg");
+}
+
+.nuvens {
+
+    background-image: url("./Images/nublado/pexels-pixabay-158163.jpg");
+}
+
+.buscar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maxima-minima {
+    display: flex;
+    flex-direction: column;
+}
+
+.maxima-minima .temp {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 35px;
+}
+
+
+.buscar input {
+    border: none;
+    margin: 4px;
+    width: 70%;
+    padding: 15px;
+    height: 25px;
+    background-color: rgb(199, 199, 199);
+    font-size: 20px;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.place::placeholder {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buscar button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(25, 188, 200);
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.container-buscador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: 50%;
+    height: 80px;
+    margin-top: 1%;
+    background-color: rgba(10, 23, 55, 0.5);
+    border: none;
+    border-radius: 10px;
+}
+
+
+.clima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 80%;
+    gap: 25px;
+    height: 10%;
+}
+
+.clima p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.clima h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 23%;
+    height: calc(90vh - 80px);
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(10, 23, 55, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.479) 0px 54px 55px, rgba(122, 122, 122, 0.486) 0px -12px 30px, rgba(20, 20, 20, 0.925) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: ease-in-out 1s;
+}
+
+.icones-descricao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.icones-descricao p {
+    margin-left: 7%;
+}
+
+.vento {
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ventos-incone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 100%;
+    height: 45vh;
+
+}
+
+
+
+.resultados h2 {
+    display: flex;
+    font-size: 30px;
+    margin-top: 5px;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #fff;
+
+}
+
+.rodape {
+    display: none;
+
+}
+
+.temperatura {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 70px;
+
+}
+
+@media(max-width:1090px) {
+    .resultados {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        width: 30%;
+        height: calc(90vh - 80px);
+        border: none;
+        border-radius: 6px;
+        background-color: rgba(10, 23, 55, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.479) 0px 54px 55px, rgba(122, 122, 122, 0.486) 0px -12px 30px, rgba(20, 20, 20, 0.925) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        transition: ease-in-out 1s;
+    }
+
+    .header {
+        display: flex;
+        align-items: flex-end;
+        height: 27px;
+        margin-right: 85%;
+        border-radius: 8px;
+        font-weight: bold;
+        border-right: 1px solid rgb(15, 15, 15);
+        border-bottom: 3px solid rgb(15, 15, 15);
+        font-size: 20px;
+        margin-top: 25px;
+        background-color: #fff;
+        font-style: italic;
+        font-family: sans-serif;
+    }
+
+
+}
+
+@media(max-width:905px) {
+    .resultados {
+        width: 35%;
+    }
+
+    .header {
+        display: flex;
+        align-items: flex-end;
+        height: 27px;
+        margin-right: 85%;
+        border-radius: 8px;
+        font-weight: bold;
+        border-right: 1px solid rgb(15, 15, 15);
+        border-bottom: 3px solid rgb(15, 15, 15);
+        font-size: 20px;
+        margin-top: 25px;
+        background-color: #fff;
+        font-style: italic;
+        font-family: sans-serif;
+    }
+
+
+}
+
+
+@media(max-width:839px) {
+    .header {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:727px) {
+    .header {
+        font-size: 15px;
+    }
+
+    .resultados {
+        width: 85%;
+    }
+}
+
+@media (max-width:500px) {
+    html {
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .buscar button {
+        background-color: rgb(15, 15, 15);
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #023047;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        font-style: italic;
+        font-family: sans-serif;
+    }
+
+
+    .container-buscador {
+        width: 85%;
+        height: 60px;
+        margin-top: 11%;
+    }
+
+    .fundo {
+        background-image: none;
+        background-color: #64558a;
+    }
+
+    .resultados {
+        margin-top: 120px;
+    }
+
+    .icone {
+        width: 180px;
+    }
+
+    .resultados h2 {
+        margin-top: 30px;
+        font-size: 35px;
+    }
+
+
+    .temperatura {
+        margin-top: 80px;
+        font-size: 95px;
+    }
+
+    .clima h3 {
+        font-size: 15px;
+        border-bottom: solid 1px #000000;
+        font-style: italic;
+    }
+
+    .clima p {
+        font-size: 15px;
+        border-bottom: solid 1px #000000;
+    }
+
+    .ventos-incone h4 {
+        color: #fff;
+        border-bottom: solid 1px #000000;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        background-color: #023047;
+        width: 100%;
+        font-family: sans-serif;
+        font-style: italic;
+        color: #fff;
+        margin-top: 3px;
+        font-size: 15px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+}
+
+@media(max-width:376px) {
+    .temperatura {
+        margin-top: 20px;
+        font-size: 95px;
+    }
+}
