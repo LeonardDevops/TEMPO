@@ -1,3 +1,19 @@
+Previsão do Tempo App
+Este projeto é um aplicativo de previsão do tempo desenvolvido utilizando ReactJS e CSS3 para estilização. O objetivo principal é fornecer aos usuários informações precisas e atualizadas sobre as condições climáticas em diferentes localidades.
+
+Funcionalidades
+Consumo de API Externa: O aplicativo utiliza uma API externa para obter dados de previsão do tempo. Isso garante informações precisas e atualizadas para os usuários.
+
+Tratamento de Erros: Foram implementados mecanismos robustos para lidar com possíveis erros durante a obtenção e exibição dos dados. Mensagens de erro claras e amigáveis são apresentadas aos usuários para uma melhor experiência.
+
+Responsividade: O design do aplicativo foi pensado para oferecer uma experiência consistente em diferentes dispositivos, garantindo uma boa usabilidade tanto em desktops quanto em dispositivos móveis.
+
+Tecnologias Utilizadas
+ReactJS: Utilizado para o desenvolvimento da interface do usuário, permitindo uma experiência interativa e dinâmica.
+
+CSS3: Responsável pela estilização do aplicativo, proporcionando um design atraente e intuitivo.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
